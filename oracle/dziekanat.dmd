@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="dziekanat" id="AE609326-148B-1D17-7A08-2A151A633CF1" version="3.5">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 15:15:37 UTC</createdTime>
+<ownerDesignName>dziekanat</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>AE609326-148B-1D17-7A08-2A151A633CF1</designId>
+</OSDM_Design>

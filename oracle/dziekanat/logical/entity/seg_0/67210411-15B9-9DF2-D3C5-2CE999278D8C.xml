@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="67210411-15B9-9DF2-D3C5-2CE999278D8C" name="faculty">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 15:24:12 UTC</createdTime>
+<ownerDesignName>xddddd</ownerDesignName>
+<engineerTo>
+<item key="086F8292-8488-D34D-0510-72A94D90F0B2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="8D55B403-73C0-EA5C-58FC-5097632E551B">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 15:24:45 UTC</createdTime>
+<ownerDesignName>xddddd</ownerDesignName>
+<engineerTo>
+<item key="086F8292-8488-D34D-0510-72A94D90F0B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="6DC39C69-7981-9B6D-005E-0B40D333A68B">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 15:24:59 UTC</createdTime>
+<ownerDesignName>xddddd</ownerDesignName>
+<engineerTo>
+<item key="086F8292-8488-D34D-0510-72A94D90F0B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="short_name" id="0F8BDDA3-41CC-E39B-5C92-1F133A1782E6">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 15:25:30 UTC</createdTime>
+<ownerDesignName>xddddd</ownerDesignName>
+<engineerTo>
+<item key="086F8292-8488-D34D-0510-72A94D90F0B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="deleted_at" id="4E5D3D78-0FFC-5EAA-B302-C173307653B0">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 15:26:05 UTC</createdTime>
+<ownerDesignName>xddddd</ownerDesignName>
+<engineerTo>
+<item key="086F8292-8488-D34D-0510-72A94D90F0B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F0672E72-ED2E-0F54-C8D1-29593929628B" name="faculty PK">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 15:25:04 UTC</createdTime>
+<ownerDesignName>xddddd</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="086F8292-8488-D34D-0510-72A94D90F0B2" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8D55B403-73C0-EA5C-58FC-5097632E551B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

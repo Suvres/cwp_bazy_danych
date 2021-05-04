@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="6A4D4639-ECB3-C6F8-523B-34719E73256E">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 15:15:37 UTC</createdTime>
+<ownerDesignName>dziekanat</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

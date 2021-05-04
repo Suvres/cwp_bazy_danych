@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2DABF3C2-83DB-5CA8-8522-D19715993D4E" name="student">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:15:33 UTC</createdTime>
+<generatorID>EEF6EB0F-4E65-0253-F56A-1A5088C8F74A</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="index" id="61CFEF2E-C893-AE4C-0071-EDD62B917420">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:15:33 UTC</createdTime>
+<generatorID>8D3116EC-36C3-87A4-3B98-B162693E6E50</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="deleted_at" id="D957A855-6336-AE17-3F49-34677A9CD2CE">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:15:33 UTC</createdTime>
+<generatorID>27F8D173-66DE-6B1A-6218-0EE7871E0D2F</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<defaultValue>null</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="4675855D-7A0C-2347-F777-B70CD2024812">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:15:33 UTC</createdTime>
+<generatorID>C842D4D8-F23F-1AA4-53B9-5CBC58D9AC19</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type_id" id="7B8C841D-FBB1-4631-2D3E-1738AE852C86">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:15:33 UTC</createdTime>
+<generatorID>6943A0AA-7A88-2007-8DD0-DCEBD6F3135E</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="22617D35-5FC2-AA6D-9271-F43049C464EB">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:15:33 UTC</createdTime>
+<generatorID>5E9CBBDD-9089-75A1-E231-F13A79AA44FF</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="DF137CC7-0508-44BD-7822-5E7578BF6FC1">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:15:33 UTC</createdTime>
+<generatorID>412D605C-AE40-893D-C1FF-1D8CE07961DB</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="work_group_id" id="5F903CAF-AFC9-A14F-EE94-C77B7DB7345C">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:17:17 UTC</createdTime>
+<generatorID>D29A2474-3C78-BC0E-6853-62185C812F05</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E5F2A0D-71CF-47E9-F377-95DF147D1FE0" referredColumn="0F635687-3CF8-2D77-F0FE-9DCE6A3925A9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FC31ACA3-138E-B2E8-29D0-BE3385350294" name="student_PK">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:15:33 UTC</createdTime>
+<generatorID>C1244DBC-6219-B358-8945-E7C8FC54F43E</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61CFEF2E-C893-AE4C-0071-EDD62B917420"/>
+<colUsage columnID="5F903CAF-AFC9-A14F-EE94-C77B7DB7345C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C406FDD8-B195-B895-B2C9-16488EF8AED7" name="student_PKv2">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:27:50 UTC</createdTime>
+<ownerDesignName>xddddd</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+</ind_PK_UK>
+<ind_PK_UK id="451DD556-A3C5-E695-F621-68F8E6A880E4" name="student_work_group_FK">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:17:17 UTC</createdTime>
+<generatorID>8EC0597F-31CA-4C74-15EB-A5427FC55128</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F903CAF-AFC9-A14F-EE94-C77B7DB7345C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

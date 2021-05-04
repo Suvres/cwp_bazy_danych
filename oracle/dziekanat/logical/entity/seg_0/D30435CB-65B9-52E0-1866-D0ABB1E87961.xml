@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D30435CB-65B9-52E0-1866-D0ABB1E87961" name="mark">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 15:46:16 UTC</createdTime>
+<ownerDesignName>xddddd</ownerDesignName>
+<engineerTo>
+<item key="086F8292-8488-D34D-0510-72A94D90F0B2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="78F2C675-8192-01CA-CB32-5AB2A4D898D3">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 15:46:35 UTC</createdTime>
+<ownerDesignName>xddddd</ownerDesignName>
+<engineerTo>
+<item key="086F8292-8488-D34D-0510-72A94D90F0B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mark" id="18F3E932-311D-7EC8-16B8-52850242157C">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 15:46:47 UTC</createdTime>
+<ownerDesignName>xddddd</ownerDesignName>
+<engineerTo>
+<item key="086F8292-8488-D34D-0510-72A94D90F0B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="index" id="D7727928-4B16-361D-0992-2E8BAC64CC00">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:25:10 UTC</createdTime>
+<generatorID>70C4116E-D3A6-C191-2F75-FCD3A64F76E3</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<engineerTo>
+<item key="086F8292-8488-D34D-0510-72A94D90F0B2" value="true"/>
+</engineerTo>
+<referedAttribute>8D3116EC-36C3-87A4-3B98-B162693E6E50</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="183D1E9D-2FA8-1701-5112-4211083627D7">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:25:10 UTC</createdTime>
+<generatorID>70C4116E-D3A6-C191-2F75-FCD3A64F76E3</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<engineerTo>
+<item key="086F8292-8488-D34D-0510-72A94D90F0B2" value="true"/>
+</engineerTo>
+<referedAttribute>D29A2474-3C78-BC0E-6853-62185C812F05</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8786EC60-711A-CA36-A07D-C22E3FA1DD6E" name="mark PK">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 15:46:44 UTC</createdTime>
+<ownerDesignName>xddddd</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="086F8292-8488-D34D-0510-72A94D90F0B2" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>78F2C675-8192-01CA-CB32-5AB2A4D898D3</attributeRef>
+<attributeRef>D7727928-4B16-361D-0992-2E8BAC64CC00</attributeRef>
+<attributeRef>183D1E9D-2FA8-1701-5112-4211083627D7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

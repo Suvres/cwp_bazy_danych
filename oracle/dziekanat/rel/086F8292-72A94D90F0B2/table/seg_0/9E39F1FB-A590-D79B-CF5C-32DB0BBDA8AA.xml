@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9E39F1FB-A590-D79B-CF5C-32DB0BBDA8AA" name="faculty">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:15:33 UTC</createdTime>
+<generatorID>67210411-15B9-9DF2-D3C5-2CE999278D8C</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="1951AD92-AF48-A428-D512-5D33A90D3F31">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:15:33 UTC</createdTime>
+<generatorID>8D55B403-73C0-EA5C-58FC-5097632E551B</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="60B8AEE6-FC0D-9FBA-E6ED-7C07EECEAB16">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:15:33 UTC</createdTime>
+<generatorID>6DC39C69-7981-9B6D-005E-0B40D333A68B</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="short_name" id="CCCF6D59-0C01-E7CB-0FF0-4705939233E7">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:15:33 UTC</createdTime>
+<generatorID>0F8BDDA3-41CC-E39B-5C92-1F133A1782E6</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="deleted_at" id="6D05A0BA-FA99-45E4-8180-F6869C5200DF">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:15:33 UTC</createdTime>
+<generatorID>4E5D3D78-0FFC-5EAA-B302-C173307653B0</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="49AC0686-588E-1ED7-E8D6-054CE926A9A2" name="faculty_PK">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:15:33 UTC</createdTime>
+<generatorID>F0672E72-ED2E-0F54-C8D1-29593929628B</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1951AD92-AF48-A428-D512-5D33A90D3F31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

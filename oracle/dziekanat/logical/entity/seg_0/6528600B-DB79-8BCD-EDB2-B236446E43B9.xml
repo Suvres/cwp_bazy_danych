@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6528600B-DB79-8BCD-EDB2-B236446E43B9" name="faculties">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 15:37:30 UTC</createdTime>
+<ownerDesignName>xddddd</ownerDesignName>
+<engineerTo>
+<item key="086F8292-8488-D34D-0510-72A94D90F0B2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="D9D1C1D3-8D40-8765-43E5-AD7CA081843F">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 15:39:20 UTC</createdTime>
+<ownerDesignName>xddddd</ownerDesignName>
+<engineerTo>
+<item key="086F8292-8488-D34D-0510-72A94D90F0B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="deleted_at" id="8F88E735-57C9-68AC-0010-37FB50D7F323">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 15:40:56 UTC</createdTime>
+<ownerDesignName>xddddd</ownerDesignName>
+<engineerTo>
+<item key="086F8292-8488-D34D-0510-72A94D90F0B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="4EE1BD2A-AF87-5AE0-9D87-39D01A8018BF">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:35:56 UTC</createdTime>
+<generatorID>1364A659-23CE-D321-72D2-7EB98DA4C088</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<engineerTo>
+<item key="086F8292-8488-D34D-0510-72A94D90F0B2" value="true"/>
+</engineerTo>
+<referedAttribute>8D55B403-73C0-EA5C-58FC-5097632E551B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="index" id="DE1CD0C5-A5A1-175A-2BE8-2DFD9AAE7B43">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:36:12 UTC</createdTime>
+<generatorID>184168E9-3AA3-50FB-50FD-BD780EC16A61</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<engineerTo>
+<item key="086F8292-8488-D34D-0510-72A94D90F0B2" value="true"/>
+</engineerTo>
+<referedAttribute>8D3116EC-36C3-87A4-3B98-B162693E6E50</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="AAC86E17-0D2F-0195-5A33-4CF19EF50D3A">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:36:12 UTC</createdTime>
+<generatorID>184168E9-3AA3-50FB-50FD-BD780EC16A61</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<engineerTo>
+<item key="086F8292-8488-D34D-0510-72A94D90F0B2" value="true"/>
+</engineerTo>
+<referedAttribute>D29A2474-3C78-BC0E-6853-62185C812F05</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="5F28B8CF-E9DB-9BF0-C712-5FF0D04D3038">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:36:54 UTC</createdTime>
+<generatorID>44B65B78-9C97-2D45-DE7B-344BD39DA3E0</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<engineerTo>
+<item key="086F8292-8488-D34D-0510-72A94D90F0B2" value="true"/>
+</engineerTo>
+<referedAttribute>F2F016E5-1A15-41A8-2454-5A270E654CC5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id11" id="55FA83DE-3F1C-AC12-BA78-5A4B34EDF964">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:42:00 UTC</createdTime>
+<generatorID>44B65B78-9C97-2D45-DE7B-344BD39DA3E0</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<engineerTo>
+<item key="086F8292-8488-D34D-0510-72A94D90F0B2" value="true"/>
+</engineerTo>
+<referedAttribute>F788D0E2-7FCC-B869-1513-73898BA3A7DC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E9C0EB86-0F24-A2B0-5C74-90314D5EA0D2" name="faculties PK">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 15:39:30 UTC</createdTime>
+<ownerDesignName>xddddd</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="086F8292-8488-D34D-0510-72A94D90F0B2" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D9D1C1D3-8D40-8765-43E5-AD7CA081843F</attributeRef>
+<attributeRef>4EE1BD2A-AF87-5AE0-9D87-39D01A8018BF</attributeRef>
+<attributeRef>5F28B8CF-E9DB-9BF0-C712-5FF0D04D3038</attributeRef>
+<attributeRef>55FA83DE-3F1C-AC12-BA78-5A4B34EDF964</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

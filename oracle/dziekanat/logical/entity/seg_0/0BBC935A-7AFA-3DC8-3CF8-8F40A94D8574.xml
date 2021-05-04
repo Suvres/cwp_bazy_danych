@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0BBC935A-7AFA-3DC8-3CF8-8F40A94D8574" name="subject">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 15:41:27 UTC</createdTime>
+<ownerDesignName>xddddd</ownerDesignName>
+<engineerTo>
+<item key="086F8292-8488-D34D-0510-72A94D90F0B2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="14569BE6-24D1-F6A4-E5BA-B76FA365BE4A">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 15:42:29 UTC</createdTime>
+<ownerDesignName>xddddd</ownerDesignName>
+<engineerTo>
+<item key="086F8292-8488-D34D-0510-72A94D90F0B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="03511B08-E473-3C95-5D83-DFEF6A7ABDB6">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 15:42:40 UTC</createdTime>
+<ownerDesignName>xddddd</ownerDesignName>
+<engineerTo>
+<item key="086F8292-8488-D34D-0510-72A94D90F0B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hours" id="0BAA79C7-C3FE-E34C-EA28-4AFC25520EE2">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 15:43:31 UTC</createdTime>
+<ownerDesignName>xddddd</ownerDesignName>
+<engineerTo>
+<item key="086F8292-8488-D34D-0510-72A94D90F0B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="exam" id="431470AA-EF97-EC39-ADE5-4DE88AB5DE5E">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 15:44:14 UTC</createdTime>
+<ownerDesignName>xddddd</ownerDesignName>
+<engineerTo>
+<item key="086F8292-8488-D34D-0510-72A94D90F0B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="deleted_at" id="E49F606B-D6A9-EBE4-1011-353DE4990C5E">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 15:45:46 UTC</createdTime>
+<ownerDesignName>xddddd</ownerDesignName>
+<engineerTo>
+<item key="086F8292-8488-D34D-0510-72A94D90F0B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="270CAA3E-0DF5-9DB9-B113-D38BA37E5505">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:39:23 UTC</createdTime>
+<generatorID>0B7CD1FA-73EB-4D8D-8A5F-5CA419FE10B1</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<engineerTo>
+<item key="086F8292-8488-D34D-0510-72A94D90F0B2" value="true"/>
+</engineerTo>
+<referedAttribute>8D55B403-73C0-EA5C-58FC-5097632E551B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="86CAA3E6-8E6E-5B30-7721-7F686967EE04">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:39:54 UTC</createdTime>
+<generatorID>822BD245-480C-C2D9-E68F-F61C6B781F7F</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<engineerTo>
+<item key="086F8292-8488-D34D-0510-72A94D90F0B2" value="true"/>
+</engineerTo>
+<referedAttribute>DCED1ED3-3BFC-B1D0-0271-FC828C56A4E5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D9108F5B-B640-F8C1-01DC-3454EDC4A14C" name="subject PK">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 15:42:38 UTC</createdTime>
+<ownerDesignName>xddddd</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="086F8292-8488-D34D-0510-72A94D90F0B2" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>14569BE6-24D1-F6A4-E5BA-B76FA365BE4A</attributeRef>
+<attributeRef>270CAA3E-0DF5-9DB9-B113-D38BA37E5505</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

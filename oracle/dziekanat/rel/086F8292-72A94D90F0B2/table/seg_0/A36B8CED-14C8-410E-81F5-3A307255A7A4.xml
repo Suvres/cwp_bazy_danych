@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A36B8CED-14C8-410E-81F5-3A307255A7A4" name="subject">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:15:33 UTC</createdTime>
+<generatorID>0BBC935A-7AFA-3DC8-3CF8-8F40A94D8574</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="3F24404D-BE5F-D78E-7DD4-677AE820EF8B">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:15:33 UTC</createdTime>
+<generatorID>14569BE6-24D1-F6A4-E5BA-B76FA365BE4A</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="76C571C9-7750-B888-9038-74EE8359DF57">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:15:33 UTC</createdTime>
+<generatorID>03511B08-E473-3C95-5D83-DFEF6A7ABDB6</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hours" id="B69DCA1A-F2F2-57B1-190C-CC58A6155AD7">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:15:33 UTC</createdTime>
+<generatorID>0BAA79C7-C3FE-E34C-EA28-4AFC25520EE2</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="exam" id="7209CF9A-4509-4245-0F4B-E18917821B30">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:15:33 UTC</createdTime>
+<generatorID>431470AA-EF97-EC39-ADE5-4DE88AB5DE5E</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="faculty_id" id="9B2A5CC3-82DE-9E16-BD57-972601F5EF68">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:15:33 UTC</createdTime>
+<generatorID>044796FF-D8D7-80CC-326A-9A797B267862</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="deleted_at" id="846D30AF-D15E-2919-BFA4-CC7D03F2EABF">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:15:33 UTC</createdTime>
+<generatorID>E49F606B-D6A9-EBE4-1011-353DE4990C5E</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="faculty_id2" id="7ED930D4-29E0-1BC0-2A1E-A9054D9693FD">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:45:08 UTC</createdTime>
+<generatorID>270CAA3E-0DF5-9DB9-B113-D38BA37E5505</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0253DFB-F7A1-F5CE-7190-1632C85EAE18" referredColumn="1951AD92-AF48-A428-D512-5D33A90D3F31"/>
+</associations>
+</Column>
+<Column name="work_group_id" id="92C8B326-BA56-FCF4-80A3-BBD9C619CB8A">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:45:08 UTC</createdTime>
+<generatorID>86CAA3E6-8E6E-5B30-7721-7F686967EE04</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C8DCCAD-0A02-E3D8-8EB0-CB74BEBBBAB9" referredColumn="0F635687-3CF8-2D77-F0FE-9DCE6A3925A9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="80F4E05A-0ECC-C47F-BE07-888A2FF7BBAB" name="subject_PK">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:15:33 UTC</createdTime>
+<generatorID>D9108F5B-B640-F8C1-01DC-3454EDC4A14C</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F24404D-BE5F-D78E-7DD4-677AE820EF8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C8FA1D7-23A3-3A79-BB44-37076B7490EB" name="subject_faculty_FK">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:45:08 UTC</createdTime>
+<generatorID>0B7CD1FA-73EB-4D8D-8A5F-5CA419FE10B1</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7ED930D4-29E0-1BC0-2A1E-A9054D9693FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C617B814-8AF6-6D4E-80FF-75B830EB7A34" name="subject_work_group_FK">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 16:45:08 UTC</createdTime>
+<generatorID>822BD245-480C-C2D9-E68F-F61C6B781F7F</generatorID>
+<ownerDesignName>xddddd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92C8B326-BA56-FCF4-80A3-BBD9C619CB8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
