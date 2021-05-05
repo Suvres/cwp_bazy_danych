@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="student_work_group" directorySegmentName="seg_0" id="025B46A5-CE61-F02F-A257-24E626CB3525">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:42:49 UTC</createdTime>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<engineerTo>
+<item key="1C241150-A36E-9C26-88BB-FCE3E0A0CD8E" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>823464C8-7931-11D3-1467-8B628BDE35FC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>92FF981C-E99B-2E70-1A99-6877E16DF79F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="1C241150-A36E-9C26-88BB-FCE3E0A0CD8E" mainViewID="E445B926-C7CB-B3A1-35A9-1D4947180E92">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:35:43 UTC</createdTime>
+<ownerDesignName>dziekanat</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

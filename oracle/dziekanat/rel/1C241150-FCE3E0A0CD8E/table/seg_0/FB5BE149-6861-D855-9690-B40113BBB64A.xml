@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB5BE149-6861-D855-9690-B40113BBB64A" name="subject">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:39:48 UTC</createdTime>
+<generatorID>BA0B3A02-8213-F4FA-DA48-77048901CEDC</generatorID>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="402DCAFC-E467-E702-0604-6B0DDCBD0DAC">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:39:48 UTC</createdTime>
+<generatorID>894A7462-9469-561A-F44B-2CF2AF689698</generatorID>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="subject_name" id="D1056A99-D5A1-8A9C-DAF7-22688C077604">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:39:48 UTC</createdTime>
+<generatorID>1AC7645C-9883-2DBF-D5C7-77FCD45D579E</generatorID>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DDEF283C-68CC-B696-BEF0-2CE633E243B0" name="subject_PK">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:39:48 UTC</createdTime>
+<generatorID>99C9CF5F-9205-5F22-D20B-0DB3E2EE7BCB</generatorID>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="402DCAFC-E467-E702-0604-6B0DDCBD0DAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

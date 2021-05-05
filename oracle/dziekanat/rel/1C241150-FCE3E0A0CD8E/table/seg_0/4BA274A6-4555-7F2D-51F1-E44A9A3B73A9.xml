@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4BA274A6-4555-7F2D-51F1-E44A9A3B73A9" name="faculty">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:39:48 UTC</createdTime>
+<generatorID>D8717776-5B22-A81F-6E34-A6B35E9B87EC</generatorID>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="3B3396D7-4ABF-343B-36E4-1B15535C0AC5">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:39:48 UTC</createdTime>
+<generatorID>D91230E8-FC06-B0B2-7671-9ACEC48131BC</generatorID>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="faculty_name" id="4A991881-1258-57D4-F988-77899C48AA3B">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:39:48 UTC</createdTime>
+<generatorID>E7E6AF30-5DAD-9172-428E-AEE261361495</generatorID>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="abbreviation" id="248C977C-6810-9DB0-44BE-170A23794083">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:39:48 UTC</createdTime>
+<generatorID>FE0959EA-A914-7B4D-A685-2DC97E229B75</generatorID>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2E6F21AB-70B0-656F-3CCD-959A7F6C71DE" name="faculty_PK">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:39:48 UTC</createdTime>
+<generatorID>60738E87-CFFF-C748-D379-7F3483E5AF89</generatorID>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B3396D7-4ABF-343B-36E4-1B15535C0AC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

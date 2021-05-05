@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="83F9982D-EC50-B06E-444B-FAEEE9259EB6" containerWithKeyObject="0ED6D3B4-DC57-F55F-42C2-F378F0BB3EA7" localFKIndex="3396D888-3E53-F7FC-B905-71DDA8D83ACB" name="employee_cathedral_FK">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-05 07:35:33 UTC</createdTime>
+<generatorID>C0A10A82-C6CD-00E8-0981-245D9EA6E580</generatorID>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<referredTableLongName>cathedral</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>524E6742-8768-BEDF-9AC5-A66DDFD868FC</referredTableID>
+<keyObject>5CA4F8A6-EFC7-9E3B-0D58-1C9720910F2C</keyObject>
+<referredKeyID>5CA4F8A6-EFC7-9E3B-0D58-1C9720910F2C</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

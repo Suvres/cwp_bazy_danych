@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FCA8D615-636E-31A1-2C7F-FBBE1A9515C3" name="mark">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:39:48 UTC</createdTime>
+<generatorID>6FDDA1D4-7A77-762D-EAE4-D51CE0CF1F91</generatorID>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="E2014B4E-060F-A59F-201C-58443821BEEB">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:39:48 UTC</createdTime>
+<generatorID>265A239F-894C-D223-B3B9-408C8409EE7E</generatorID>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mark" id="A0961317-3495-C91E-8C51-65E040570537">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:39:48 UTC</createdTime>
+<generatorID>F4BA1E9C-8358-70EC-6E3F-7F4B714C3923</generatorID>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,4,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="classes_id" id="CCF2AB5D-66FE-BDE9-6BCF-6F343C098C55">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:49:15 UTC</createdTime>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A178985-AD30-7419-3EC4-6485C31487BB" referredColumn="CE72FA3B-BD35-B543-5DEB-22A7A4A222B8"/>
+</associations>
+</Column>
+<Column name="student_index" id="743EA840-60AA-3E04-9F03-4A1CAEA4AF1A">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:49:56 UTC</createdTime>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0745CEC5-C6D7-B25B-2045-76BDF3444E53" referredColumn="CDD6D3E3-82B2-2EE7-311F-DB9FB7302B99"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="974AB578-EE0C-6BA8-7943-843B0B487E13" name="mark_PK">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:39:48 UTC</createdTime>
+<generatorID>A971A925-7CB7-8E59-7EA2-8D650524AF38</generatorID>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2014B4E-060F-A59F-201C-58443821BEEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6D78E13-E257-4AAA-50F0-251D33098B4D" name="mark_classes_FK">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:49:15 UTC</createdTime>
+<generatorID>77A70717-A533-CA55-F896-5AA189784B5A</generatorID>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCF2AB5D-66FE-BDE9-6BCF-6F343C098C55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="846619B1-12B2-1732-186F-70F543F2E281" name="mark_student_FK">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:49:56 UTC</createdTime>
+<generatorID>9E5D7128-FBCD-198E-22CB-F9BE1B682F64</generatorID>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="743EA840-60AA-3E04-9F03-4A1CAEA4AF1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

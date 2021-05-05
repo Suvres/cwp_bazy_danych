@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="employee_position_FK" directorySegmentName="seg_0" id="A0682E51-6D53-ACAE-F500-64D719EAFD01">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:41:06 UTC</createdTime>
+<generatorID>88C7F10A-D6B5-78D4-3AC6-4944515E8114</generatorID>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<engineerTo>
+<item key="1C241150-A36E-9C26-88BB-FCE3E0A0CD8E" value="true"/>
+</engineerTo>
+<sourcePk>10418F04-9D7C-A632-2308-B12BDA33DF3D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F1E3CB34-B8FB-30BA-4543-A6461FFB34B3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B8DE7590-71D5-3CBB-7BB2-AC52A59EBD34</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

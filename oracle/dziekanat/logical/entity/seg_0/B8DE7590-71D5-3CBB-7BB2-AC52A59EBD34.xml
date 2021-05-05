@@ -1,0 +1,227 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B8DE7590-71D5-3CBB-7BB2-AC52A59EBD34" name="employee">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:36:27 UTC</createdTime>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<engineerTo>
+<item key="1C241150-A36E-9C26-88BB-FCE3E0A0CD8E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="D9584E4C-B3C8-C830-66A3-8B5C22A5B344">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:36:27 UTC</createdTime>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<importedID>5D2F2664-8CF4-36B2-101C-176601BA4D91</importedID>
+<engineerTo>
+<item key="1C241150-A36E-9C26-88BB-FCE3E0A0CD8E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first name" id="C1AD52B3-DA36-2DF0-44AF-AC14838F2347">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:36:27 UTC</createdTime>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<importedID>983E1C95-7BC5-B39F-869E-6B541CA2D80F</importedID>
+<engineerTo>
+<item key="1C241150-A36E-9C26-88BB-FCE3E0A0CD8E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>49</dataTypeSize>
+<ownDataTypeParameters>49,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last name" id="E586AFB4-6ED1-FFDB-3571-AED9FD2CFD69">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:36:27 UTC</createdTime>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<importedID>45661C1A-7B89-8F7B-5C20-FE8DBE288818</importedID>
+<engineerTo>
+<item key="1C241150-A36E-9C26-88BB-FCE3E0A0CD8E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PESEL" id="C16F3A99-3973-0531-8C44-7C284F5AACBB">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:36:27 UTC</createdTime>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<importedID>01727405-BF58-908F-F749-C287A9512A8F</importedID>
+<engineerTo>
+<item key="1C241150-A36E-9C26-88BB-FCE3E0A0CD8E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="locality" id="41A4C9B9-6EA5-D6BD-17CD-9B9BFC8CE1DE">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:36:27 UTC</createdTime>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<importedID>C006547C-A612-A932-01B2-AD55E2995321</importedID>
+<engineerTo>
+<item key="1C241150-A36E-9C26-88BB-FCE3E0A0CD8E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="postal code" id="425EFFC6-9E9C-D573-A844-AEF1997D6BE4">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:36:27 UTC</createdTime>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<importedID>20B725F9-31B6-18EE-8B86-71509B9BFB14</importedID>
+<engineerTo>
+<item key="1C241150-A36E-9C26-88BB-FCE3E0A0CD8E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone" id="55984402-EB41-810A-E07D-3B5EBC7FE1E1">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:36:27 UTC</createdTime>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<importedID>096EEC8B-7880-43C0-B840-02705E1BBC32</importedID>
+<engineerTo>
+<item key="1C241150-A36E-9C26-88BB-FCE3E0A0CD8E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="EEBDF51E-0230-D986-759E-84C841C5DFD1">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:36:27 UTC</createdTime>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<importedID>301A5527-8AF9-9AAE-A972-2ECEB093EBF9</importedID>
+<engineerTo>
+<item key="1C241150-A36E-9C26-88BB-FCE3E0A0CD8E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date of employment" id="6B7B29D8-08A1-1AD0-6BC3-A8040F58FF0D">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:36:27 UTC</createdTime>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<importedID>13E60100-8DA9-C0FB-0073-AF0FE379DBB9</importedID>
+<engineerTo>
+<item key="1C241150-A36E-9C26-88BB-FCE3E0A0CD8E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date of release" id="B471A9D8-428E-EE98-C5AB-2DC36B7CCCF9">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:36:27 UTC</createdTime>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<importedID>472C177B-1215-2768-8931-904F3D6316BC</importedID>
+<engineerTo>
+<item key="1C241150-A36E-9C26-88BB-FCE3E0A0CD8E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="position id" id="B6A2A4C0-B01D-CC1F-435F-6E4E5EFCE703">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:41:06 UTC</createdTime>
+<generatorID>A0682E51-6D53-ACAE-F500-64D719EAFD01</generatorID>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<engineerTo>
+<item key="1C241150-A36E-9C26-88BB-FCE3E0A0CD8E" value="true"/>
+</engineerTo>
+<referedAttribute>5230A53C-B448-2BB7-6FC2-F9B31F65D654</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="faculty id" id="4F9DC526-A6B3-BDFE-002C-E219D2631ADD">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:54:11 UTC</createdTime>
+<generatorID>E4A29FD1-CA51-8C7C-0AE2-BCC5FB4852EF</generatorID>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<engineerTo>
+<item key="1C241150-A36E-9C26-88BB-FCE3E0A0CD8E" value="true"/>
+</engineerTo>
+<referedAttribute>D91230E8-FC06-B0B2-7671-9ACEC48131BC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cathedral id" id="B602E17E-1F61-8122-07E2-9F386262E372">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-05 07:36:18 UTC</createdTime>
+<generatorID>A232F389-7AC8-0E46-EF3B-D768B91C37A2</generatorID>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<engineerTo>
+<item key="1C241150-A36E-9C26-88BB-FCE3E0A0CD8E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F31B7E8B-D1E8-8E81-E551-DA8B5D44D832</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="809092B7-706D-101B-5C36-B772EFA87872" name="employee_PK">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:36:27 UTC</createdTime>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1C241150-A36E-9C26-88BB-FCE3E0A0CD8E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D9584E4C-B3C8-C830-66A3-8B5C22A5B344</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

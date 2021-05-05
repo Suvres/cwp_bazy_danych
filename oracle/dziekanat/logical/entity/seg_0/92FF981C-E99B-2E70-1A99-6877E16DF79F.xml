@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="92FF981C-E99B-2E70-1A99-6877E16DF79F" name="work group">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:36:27 UTC</createdTime>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<engineerTo>
+<item key="1C241150-A36E-9C26-88BB-FCE3E0A0CD8E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="E5259DAC-EEA3-FE91-951C-46BF5CB61E34">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:36:27 UTC</createdTime>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<importedID>A0BA4A92-DD09-F734-9094-B83277BBE196</importedID>
+<engineerTo>
+<item key="1C241150-A36E-9C26-88BB-FCE3E0A0CD8E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="group code" id="701D0EFE-1023-89B5-5F44-B5094D7AB147">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:36:27 UTC</createdTime>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<importedID>51F8451F-9674-0E5D-A168-925A61147C2B</importedID>
+<engineerTo>
+<item key="1C241150-A36E-9C26-88BB-FCE3E0A0CD8E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DFFCAAAA-C451-9EEB-A395-03659D0831F7" name="work_group_PK">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:36:27 UTC</createdTime>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1C241150-A36E-9C26-88BB-FCE3E0A0CD8E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E5259DAC-EEA3-FE91-951C-46BF5CB61E34</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

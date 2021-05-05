@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="D434AD46-C2CC-92AC-8AFA-F90669CDBE9E" mainViewID="F8D47735-D287-5147-E22F-2228B8139FC6">
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="4A31AC6E-5686-B095-9038-960EEFF67F59" mainViewID="AD536B84-258F-F9C3-E922-ECC1D1CA6FF6">
 <createdBy>Hepsko</createdBy>
-<createdTime>2021-05-04 15:15:37 UTC</createdTime>
+<createdTime>2021-05-04 23:35:43 UTC</createdTime>
 <ownerDesignName>dziekanat</ownerDesignName>
 <shouldBeOpen>false</shouldBeOpen>
 </LogicalDesign>

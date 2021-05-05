@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D8717776-5B22-A81F-6E34-A6B35E9B87EC" name="faculty">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:36:27 UTC</createdTime>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<engineerTo>
+<item key="1C241150-A36E-9C26-88BB-FCE3E0A0CD8E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="D91230E8-FC06-B0B2-7671-9ACEC48131BC">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:36:27 UTC</createdTime>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<importedID>92B501B6-CD8B-FA16-9E37-C915B3B99DCD</importedID>
+<engineerTo>
+<item key="1C241150-A36E-9C26-88BB-FCE3E0A0CD8E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="faculty name" id="E7E6AF30-5DAD-9172-428E-AEE261361495">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:36:27 UTC</createdTime>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<importedID>7C48FB07-24B7-1B29-5CAC-030DF261730D</importedID>
+<engineerTo>
+<item key="1C241150-A36E-9C26-88BB-FCE3E0A0CD8E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="abbreviation" id="FE0959EA-A914-7B4D-A685-2DC97E229B75">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:36:27 UTC</createdTime>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<importedID>09A93D71-DD1A-32DA-452F-7D99D0FCEA6C</importedID>
+<engineerTo>
+<item key="1C241150-A36E-9C26-88BB-FCE3E0A0CD8E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="60738E87-CFFF-C748-D379-7F3483E5AF89" name="faculty PK">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:36:27 UTC</createdTime>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1C241150-A36E-9C26-88BB-FCE3E0A0CD8E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D91230E8-FC06-B0B2-7671-9ACEC48131BC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

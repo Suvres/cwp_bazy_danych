@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6FDDA1D4-7A77-762D-EAE4-D51CE0CF1F91" name="mark">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:36:27 UTC</createdTime>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1C241150-A36E-9C26-88BB-FCE3E0A0CD8E" value="false"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="265A239F-894C-D223-B3B9-408C8409EE7E">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:36:27 UTC</createdTime>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>93A1D96B-B2E6-658E-5235-770110C7FD2C</importedID>
+<engineerTo>
+<item key="1C241150-A36E-9C26-88BB-FCE3E0A0CD8E" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mark" id="F4BA1E9C-8358-70EC-6E3F-7F4B714C3923">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:36:27 UTC</createdTime>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>EB8D7AF8-20C9-E052-517B-CD5D92E04AC5</importedID>
+<engineerTo>
+<item key="1C241150-A36E-9C26-88BB-FCE3E0A0CD8E" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,4,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="classes id" id="34D5AE49-0F66-E153-F179-C25D02D3C2D6">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:54:11 UTC</createdTime>
+<generatorID>59C6364A-5987-006A-0E3E-517E6EFE4BB3</generatorID>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1C241150-A36E-9C26-88BB-FCE3E0A0CD8E" value="false"/>
+</engineerTo>
+<referedAttribute>E04026A1-4F4B-0483-52C2-4E3BA2BB9FAC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student index" id="83624D01-3459-D071-8115-0F44742608AC">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:54:11 UTC</createdTime>
+<generatorID>57A67402-BE94-592E-08ED-DD3DF735323D</generatorID>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1C241150-A36E-9C26-88BB-FCE3E0A0CD8E" value="false"/>
+</engineerTo>
+<referedAttribute>4E530850-82E4-7FDD-F03B-A1C9ABA056A0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A971A925-7CB7-8E59-7EA2-8D650524AF38" name="mark PK">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:36:27 UTC</createdTime>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1C241150-A36E-9C26-88BB-FCE3E0A0CD8E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>265A239F-894C-D223-B3B9-408C8409EE7E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

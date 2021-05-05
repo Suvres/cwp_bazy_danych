@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="74C26F4C-FB9E-084C-CA3C-094F458AF96A" name="work_group">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:39:48 UTC</createdTime>
+<generatorID>92FF981C-E99B-2E70-1A99-6877E16DF79F</generatorID>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="F40B000E-24B9-7731-0915-407CBCBA5839">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:39:48 UTC</createdTime>
+<generatorID>E5259DAC-EEA3-FE91-951C-46BF5CB61E34</generatorID>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="group_code" id="0BC74A8E-5CF7-2CD5-63D6-BF048F6B7E79">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:39:48 UTC</createdTime>
+<generatorID>701D0EFE-1023-89B5-5F44-B5094D7AB147</generatorID>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="745069AD-270B-9A41-FE68-585058A69CCE" name="work_group_PK">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:39:48 UTC</createdTime>
+<generatorID>DFFCAAAA-C451-9EEB-A395-03659D0831F7</generatorID>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F40B000E-24B9-7731-0915-407CBCBA5839"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

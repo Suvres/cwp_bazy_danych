@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9900EFF3-D2C2-B070-606A-AE4C2FDA3564" name="classes">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:39:48 UTC</createdTime>
+<generatorID>442184E3-3F8F-ADCA-D1BA-15B80E1707CA</generatorID>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="CE72FA3B-BD35-B543-5DEB-22A7A4A222B8">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:39:48 UTC</createdTime>
+<generatorID>E04026A1-4F4B-0483-52C2-4E3BA2BB9FAC</generatorID>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="classes_type" id="8710816C-85E4-C711-687F-71DB602C8A8F">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:39:48 UTC</createdTime>
+<generatorID>526E98FF-AF56-F723-2B54-3AF030EF5F68</generatorID>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="work_group_id" id="34E013D8-145B-3A75-4AFF-1E0318B2F60D">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:46:05 UTC</createdTime>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A506ED8-4224-7AE3-F60B-482A49288D6F" referredColumn="F40B000E-24B9-7731-0915-407CBCBA5839"/>
+</associations>
+</Column>
+<Column name="subject_id" id="01BC0EC5-D0EE-6D4B-92E3-1A05786A42A0">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:46:57 UTC</createdTime>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F4422F6-D106-6E72-9744-9EC2FF158473" referredColumn="402DCAFC-E467-E702-0604-6B0DDCBD0DAC"/>
+</associations>
+</Column>
+<Column name="employee_id" id="1671B84E-592C-ACCD-6676-EF036C609985">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:47:31 UTC</createdTime>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B09514A4-F50C-2F5E-2199-7E0579B10FF4" referredColumn="214A5969-5926-5E1F-1D72-EF4E8529B4C0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="064CA1DF-E4CA-8A09-45CE-5632F5A87121" name="classes_PK">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:39:48 UTC</createdTime>
+<generatorID>77A70717-A533-CA55-F896-5AA189784B5A</generatorID>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE72FA3B-BD35-B543-5DEB-22A7A4A222B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A3AFA40-E169-E2B5-9A92-F4C4DBB42018" name="classes_work_group_FK">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:46:05 UTC</createdTime>
+<generatorID>DFFCAAAA-C451-9EEB-A395-03659D0831F7</generatorID>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34E013D8-145B-3A75-4AFF-1E0318B2F60D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62B2DFEE-10D5-7BE1-6ACD-F171B2D471EB" name="classes_subject_FK">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:46:57 UTC</createdTime>
+<generatorID>99C9CF5F-9205-5F22-D20B-0DB3E2EE7BCB</generatorID>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01BC0EC5-D0EE-6D4B-92E3-1A05786A42A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="855FB875-7BB3-5B19-B38B-FB16EA0D8ED6" name="classes_employee_FK">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-04 23:47:31 UTC</createdTime>
+<generatorID>809092B7-706D-101B-5C36-B772EFA87872</generatorID>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1671B84E-592C-ACCD-6676-EF036C609985"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

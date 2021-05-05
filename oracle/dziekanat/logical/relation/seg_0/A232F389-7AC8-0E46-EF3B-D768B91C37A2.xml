@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="employee_cathedral_FK" directorySegmentName="seg_0" id="A232F389-7AC8-0E46-EF3B-D768B91C37A2">
+<createdBy>Hepsko</createdBy>
+<createdTime>2021-05-05 07:36:18 UTC</createdTime>
+<generatorID>83F9982D-EC50-B06E-444B-FAEEE9259EB6</generatorID>
+<ownerDesignName>dziekanat_new</ownerDesignName>
+<engineerTo>
+<item key="1C241150-A36E-9C26-88BB-FCE3E0A0CD8E" value="true"/>
+</engineerTo>
+<sourcePk>C0A10A82-C6CD-00E8-0981-245D9EA6E580</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>84836BFD-57C0-F555-F4A0-4EBDE73AED6F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B8DE7590-71D5-3CBB-7BB2-AC52A59EBD34</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
